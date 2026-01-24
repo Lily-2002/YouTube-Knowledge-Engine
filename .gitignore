@@ -1,0 +1,9 @@
+data/Timestamp/
+data/raw/
+data/processed/
+fullstop-punctuation-multilang-sonar-base/
+Qwen3_1.7b/
+bge-m3/
+summerize_model
+GPT2/
+*.zip
