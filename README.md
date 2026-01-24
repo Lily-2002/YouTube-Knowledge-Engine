@@ -37,7 +37,7 @@ The project follows a **JSON Staging Strategy** to move from raw audio transcrip
 
 1. **Ingestion:** Extraction of raw YouTube JSON (ID, Timestamp, Text).
 2. **Normalization:** Text cleaning, punctuation restoration, and timestamp alignment via Sequence Matching.
-3. **Statistical Pruning:** Sentence-level perplexity analysis to strip "low-information" segments (approx. 25% data reduction).
+3. **Statistical Pruning:** Sentence-level perplexity analysis to strip "low-information" segments.
 4. **Indexing:** Pushing high-density instructional units into Qdrant with detailed metadata for video source and timing.
 
 ---
