@@ -5,7 +5,6 @@ def clean_filler_words(text):
     pattern = r'\b(' + '|'.join(fillers) + r')\b'
     clean_text = re.sub(pattern, '', text, flags=re.IGNORECASE)
     clean_text = re.sub(r'\s+', ' ', clean_text).strip()
-    
     return clean_text
 def merge_transcripts_to_string(data):
     try:

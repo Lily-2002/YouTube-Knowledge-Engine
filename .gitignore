@@ -1,9 +1,14 @@
 data/Timestamp/
 data/raw/
 data/processed/
+data/request/
 fullstop-punctuation-multilang-sonar-base/
 Qwen3_1.7b/
-bge-m3/
+bge/
 summerize_model
 GPT2/
 *.zip
+src/training/checkpoint/
+deberta-v3-small
+Qwen_embed/
+qdrant_storage/

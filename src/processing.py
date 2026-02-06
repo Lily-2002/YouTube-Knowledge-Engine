@@ -31,6 +31,7 @@ def insert_sqlite_record(db_path, table_name, file_path):
         unit_id = f"{file_path.stem}_{idx + 1}"
         unit['id'] = unit_id
         texts.append(unit['text'])
+    summarys = 
 
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
