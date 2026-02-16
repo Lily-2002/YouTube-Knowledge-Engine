@@ -46,3 +46,4 @@ The project follows a **JSON Staging Strategy** to move from raw audio transcrip
 
 > **Note:** The core data engineering and statistical cleaning engines are currently finalized. Once the retrieval and generation modules are fully integrated, a detailed "How to Run" section with Docker and local environment setup will be added here.
 
+Training Logs and code are still in Kaggle now. Will update soon. 
